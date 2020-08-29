@@ -11,7 +11,7 @@ function AppBody() {
         <img style={{ width: '40%', margin: '0 auto' }} src={server} alt='person sitting at desk in front of server illustration'></img>
       </Jumbotron>
       <div style={{ width: '100%', height: '30rem', backgroundColor: '#4092FD', margin: '-5em 0 0 0 '}}>
-        <Container style={{ color: 'white' }}>
+        <Container id="about" style={{ color: 'white' }}>
           <h1 style={{fontWeight: 'bold', padding: '2em 0 0 0'}}>I'm Preston. Thanks for visting!</h1>
           <p style={{fontSize: '1.5em', padding: '1em 0 0 0'}}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
