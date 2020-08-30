@@ -1,21 +1,46 @@
 import React from 'react'
 import './AppBody.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faProjectDiagram, faFileCode, faServer } from '@fortawesome/free-solid-svg-icons'
+import SkillsItem from './SkillsItem'
 
 function Skills() {
+
   return (
     <div className='skills-container'>
-      <div className='skills w-border' >
-        <FontAwesomeIcon style={{color: 'blue'}} icon={faProjectDiagram} />
-      </div>      
-      <div className='skills w-border' >
-        <FontAwesomeIcon style={{ color: 'blue' }}  icon={faFileCode}/>
-      </div>      
-      <div className='skills' >
-        <FontAwesomeIcon style={{ color: 'blue' }}  icon={faServer} />
-      </div>
-    </div>
+      <SkillsItem
+        classes='skills w-border'
+        icon={faProjectDiagram}
+        mainTitle='Technology'
+        mainContent="Some quick example text to build on the card title and make up the bulk of
+            the card's content."
+        secondaryTitle='What I love to use...'
+        secondaryContent='React'
+        tertiaryTitle='Experience'
+        list={['List1', 'List1', 'List1', 'List1', 'List1', 'List1', 'List1', 'List1',]}
+      />
+      <SkillsItem
+        classes='skills w-border'
+        icon={faFileCode}
+        mainTitle='Front End Development'
+        mainContent="Some quick example text to build on the card title and make up the bulk of
+            the card's content."
+        secondaryTitle='What I love to use...'
+        secondaryContent='React'
+        tertiaryTitle='Experience'
+        list={['List1', 'List1', 'List1', 'List1', 'List1', 'List1', 'List1', 'List1',]}
+      />
+      <SkillsItem
+        classes='skills'
+        icon={faServer}
+        mainTitle='Back End Development'
+        mainContent="Some quick example text to build on the card title and make up the bulk of
+            the card's content."
+        secondaryTitle='What I love to use...'
+        secondaryContent='React'
+        tertiaryTitle='Experience'
+        list={['List1', 'List1', 'List1', 'List1', 'List1', 'List1', 'List1', 'List1']}
+      />
+  </div> 
   )
 }
 

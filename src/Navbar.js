@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap'
+import { Navbar, Nav/*, NavDropdown*/, Container } from 'react-bootstrap'
 import LOGO from './LOGO2.svg'
 
 function NavBar() {
