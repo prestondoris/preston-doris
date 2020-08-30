@@ -5,9 +5,9 @@ import Skills from './Skills'
 
 function AppBody() {
   return (
-    <div style={{ width: '100%', height: '100vh', color: '#020202'}}>
-      <Jumbotron fluid style={{ margin: 0}}>
-        <h1 style={{fontSize: '4.5em'}}>Full Stack Software Engineer</h1>
+    <div style={{ width: '100%', height: '100vh'}}>
+      <Jumbotron fluid style={{ margin: '0', backgroundColor:'white'}}>
+        <h1 id="jumboHeader">Full Stack Software Engineer</h1>
         <p style={{ fontSize: '1.5em' }}>I love to tackle new challenges and turning the blank page into something beautiful.</p>
         <img style={{ width: '40%', margin: '0 auto' }} src={server} alt='person sitting at desk in front of server illustration'></img>
       </Jumbotron>

@@ -1,6 +1,5 @@
 .skills-container {
     width: 95%;
-    height: 60rem;
     border-radius: 10px;
     background-color: white;
     margin: 6rem auto;
@@ -9,11 +8,14 @@
     flex-wrap: wrap;
     flex-direction: row;
     color: black;
-    font-weight: ;
 }
 
 .skills {
   width: 33.33%;
+}
+
+#jumboHeader {
+  font-size: 4.25em;
 }
 
 .w-border {
@@ -24,5 +26,12 @@
 
   .skills {
     width: 100%;
+  }
+  .w-border {
+    border-bottom: solid 1px #d7dbde;
+  }
+
+  #jumboHeader {
+    font-size: 3.5em;
   }
 }
