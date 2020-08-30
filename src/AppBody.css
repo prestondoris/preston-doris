@@ -1,0 +1,27 @@
+.skills-container {
+    width: 95%;
+    height: 60rem;
+    border-radius: 10px;
+    background-color: white;
+    margin: 6rem auto;
+    border: solid #d7dbde 1px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: black;
+}
+
+.skills {
+  width: 33.33%;
+}
+
+.w-border {
+  border-right: solid 1px #d7dbde;
+}
+
+@media screen and (max-width: 990px) {
+
+  .skills {
+    width: 100%;
+  }
+}
