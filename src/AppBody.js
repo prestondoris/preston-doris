@@ -1,5 +1,5 @@
 import React from 'react'
-import { Jumbotron, Container} from 'react-bootstrap'
+import { Jumbotron, Container, Card} from 'react-bootstrap'
 import server from './Server-amico.svg'
 import Skills from './Skills'
 
@@ -22,6 +22,10 @@ function AppBody() {
             in culpa qui officia deserunt mollit anim id est laborum.
           </p> 
           <Skills />
+        </Container>
+        <Container id='projects'>
+          <h4 style={{fontWeight: '900'}}>My Recent Work</h4>
+          <h5>Here are a few projects that I have worked on recently.</h5>
         </Container>
       </div>
     </div>
