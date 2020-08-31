@@ -28,6 +28,7 @@
     width: 100%;
   }
   .w-border {
+    border-right: none;
     border-bottom: solid 1px #d7dbde;
   }
 
