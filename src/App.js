@@ -6,7 +6,7 @@ import AppBody from './AppBody'
 
 function App() {
   return (
-    <div className="App">
+    <div id='home' className="App">
       <NavBar />
       <AppBody />
     </div>
