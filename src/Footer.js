@@ -10,8 +10,11 @@ function Footer(props) {
   return (
     <div style={wrapperStyles}>
       <img src={logo} style={{width: '3.5rem'}} alt='prestondoris.com logo' />
-      <img src={GithubLogo} style={{width: '2rem'}} alt='Github logo' />
-      <img src={LinkedInLogo} style={{width: '2rem'}} alt='LinkedIn logo' />
+      <p>prestondoris.com</p>
+      <div>
+        <img src={GithubLogo} style={{width: '2rem'}} alt='Github logo' />
+        <img src={LinkedInLogo} style={{width: '2rem'}} alt='LinkedIn logo' />
+      </div>
     </div>
   )
 }
