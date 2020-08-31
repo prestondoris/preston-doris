@@ -8,7 +8,8 @@ function ProjectCard(props) {
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
           Some quick example text to build on the card title and make up the bulk of
-          the card's content.
+          the card's content. Adding some new content to test Auto deploy to Heroku 
+          from Github merge.
         </Card.Text>
       </Card.Body>
     </Card>
