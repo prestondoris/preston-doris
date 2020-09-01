@@ -5,8 +5,15 @@ import Hero from './Hero'
 import Projects from  './Projects'
 import AboutMe from './AboutMe'
 import Footer from './Footer'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleDoubleLeft, faAngleDoubleRight} from '@fortawesome/free-solid-svg-icons'
 
 function AppBody() {
+  let iconStyles = {
+    color: '#fd8940',
+    fontSize: '2em',
+    marginBottom: '1rem'
+  }
   return (
     <div style={{ width: '100%', height: '100vh'}}>
       <Hero />
@@ -15,6 +22,8 @@ function AppBody() {
           <AboutMe />
           <Skills />
         </Container>
+        <FontAwesomeIcon style={iconStyles} icon={faAngleDoubleLeft} />
+        <FontAwesomeIcon style={iconStyles} icon={faAngleDoubleRight} />
         <Container id='projects'>
           <Projects />
         </Container>
