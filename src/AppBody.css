@@ -23,6 +23,14 @@
   border-right: solid 1px #d7dbde;
 }
 
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 990px) {
 
   .skills {
@@ -35,5 +43,11 @@
 
   #jumboHeader {
     font-size: 3.5em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects {
+    justify-content: center;
   }
 }
