@@ -36,14 +36,14 @@ function Projects() {
     {
       title:'Generic Personal Website',
       text:'A beautiful and simple static Portfolio Website to showcase a unqiue portfolio',
-      url: '',
+      url: 'http://pd-generic-portfolio-site.s3-website-us-west-1.amazonaws.com/',
       urlText:'Visit Website',
       fontStyle:'none'
     },
     {
       title:'Neighborhood Map',
       text:'A simple UI utilizing the Google Maps and Fourquare APIs for displaying Bay Area Breweries',
-      url: '',
+      url: 'http://pd-generic-portfolio-site.s3-website-us-west-1.amazonaws.com/NeighborhoodMap/index.html',
       urlText:'Visit Website',
       fontStyle:'none',
     }
