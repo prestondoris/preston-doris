@@ -12,7 +12,7 @@ function ProjectCard(props) {
       </Card.Body>
       <Card.Body>
         <Card.Subtitle className="mb-2 text-muted">
-          <a style={{ textDecoration: 'none', color: 'inherit', fontStyle: props.fontStyle }} target='_blank' rel="noopener noreferrer" href={props.url}>{props.urlText}</a>
+          <a style={{ textDecoration: 'none', color: 'inherit', fontStyle: props.fontStyle }} target='_blank' rel="noopener noreferrer" href={props.url === '' ? null : props.url}>{props.urlText}</a>
         </Card.Subtitle>
       </Card.Body>
     </Card>
