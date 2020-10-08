@@ -20,6 +20,13 @@ function Projects() {
       fontStyle:'none'
     },
     {
+      title: 'Tiny Mortgage',
+      text: 'A Tiny NPM Package to Calculate a Fixed Rate Mortgage',
+      url: 'https://www.npmjs.com/package/tiny-mortgage',
+      urlText: 'Visit Website',
+      fontStyle: 'none',
+    },
+    {
       title:'RBG Color Game',
       text:'A fun game to challenge your knowledge of RGB and HEX color codes',
       url:'https://pdoris-react-colorgame.herokuapp.com/',
@@ -39,13 +46,6 @@ function Projects() {
       url: 'http://pd-generic-portfolio-site.s3-website-us-west-1.amazonaws.com/',
       urlText:'Visit Website',
       fontStyle:'none'
-    },
-    {
-      title:'Neighborhood Map',
-      text:'A simple UI utilizing the Google Maps and Fourquare APIs for displaying Bay Area Breweries',
-      url: 'http://pd-generic-portfolio-site.s3-website-us-west-1.amazonaws.com/NeighborhoodMap/index.html',
-      urlText:'Visit Website',
-      fontStyle:'none',
     }
   ]
   let projects = projectData.map(project => (
