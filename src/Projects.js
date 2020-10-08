@@ -21,7 +21,7 @@ function Projects() {
     },
     {
       title: 'Tiny Mortgage',
-      text: 'A Tiny NPM Package to Calculate a Fixed Rate Mortgage',
+      text: 'A Tiny NPM Package to designed to calculate a Fixed Rate Mortgage',
       url: 'https://www.npmjs.com/package/tiny-mortgage',
       urlText: 'Visit Website',
       fontStyle: 'none',
