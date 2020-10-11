@@ -18,7 +18,7 @@ function Hero(props) {
       </h1>
       <p style={{ fontSize: '1.5em' }}>Tackling new challenges and turning a blank page into something beautiful.</p>
       <img style={{ width: '40%', margin: '0 auto', minWidth: '300px' }} src={server} alt='Full Stack Software Engineer'></img>
-      <a style={linkStyles} href="https://stories.freepik.com/internet">Illustration by Freepik Stories</a>
+      <a style={linkStyles} target='_blank' rel="noopener noreferrer" href="https://stories.freepik.com/internet">Illustration by Freepik Stories</a>
     </Jumbotron>
   )
 }
